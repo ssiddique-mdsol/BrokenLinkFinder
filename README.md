@@ -2,14 +2,14 @@
 
 ## Introduction
 
-BrokenLinkFinder is a Python script designed to identify and report broken hyperlinks on a webpage. This tool scans a specified URL, checks each hyperlink, and reports back any links that lead to a page with a 404 error or other client/server error status codes.
+BrokenLinkFinder is an enhanced Python script capable of identifying broken hyperlinks across multiple webpages. This tool first reads a sitemap, extracts all URLs, and then scans each URL for broken links. It reports back any links that lead to a page with a 404 error or other client/server error status codes, making it an invaluable resource for webmasters and SEO specialists.
 
 ## Features
 
+* Scans multiple webpages for broken links by reading a sitemap.
+* Efficiently identifies links with client or server errors (e.g., 404 Not Found).
+* Outputs results in a CSV file with columns for the original URL, broken link, and the link text.
 * Easy to use and integrate into existing workflows.
-* Efficiently scans all hyperlinks in a given webpage.
-* Identifies links with client or server errors (e.g., 404 Not Found).
-* Suitable for webmasters, SEO specialists, and website maintainers.
 
 ## Installation
 
@@ -38,6 +38,3 @@ Contributions to improve BrokenLinkFinder are welcome. Please feel free to fork 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-### Acknowledgments
-* Thanks to the Python community for the invaluable resources and support.
-* Special thanks to all contributors who help maintain and improve this tool.
